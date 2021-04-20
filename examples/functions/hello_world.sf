@@ -1,0 +1,8 @@
+func my_random_function(): string {
+  return "Hello, " + "World!"
+}
+
+const jas: string = "asd";
+
+print(jas);
+debug(my_random_function());

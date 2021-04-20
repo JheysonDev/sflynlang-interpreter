@@ -3,7 +3,7 @@ name: Rust CI
 on: [push, pull_request]
 
 jobs:
-    cargo-publish:
+  cargo-publish:
     name: Publish Cargo Package
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
